@@ -170,6 +170,8 @@ main{
 	cursor: pointer;
 }
 .country-list{
+	display: flex;
+	
 	position: absolute;
 	top: 30px;
 
@@ -181,3 +183,11 @@ main{
 
 	overflow-y: scroll;
 }
+.country-list ul li{
+	list-style: none;
+	cursor: pointer;
+	padding: 10px;
+	color: white;
+}
+.country-list ul li:hover{
+	border-left: 1px solid white;
